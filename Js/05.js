@@ -68,6 +68,8 @@ var x3 = "soy anthony";
 
 // document.write(txt);
 
+/*
+
 var cosas = [1, 2, 3, 4, 5];
 
 console.log(cosas);
@@ -85,3 +87,53 @@ if (bus > -1) {
 cosas = cosas.join();
 
 console.log(cosas);
+*/
+
+// de cadena a array
+
+// var cad = "txt1, txt2, txt3";
+// var arr = cad.split(", ");
+
+// console.log(arr);
+
+// Ordenar array
+var x = [2, 34, 1, 5, 45, 12];
+// x.sort(); // Orden alfavetico
+// x.reverse(); // Dar la vuelta array
+
+// For In
+
+// for (element in x) {
+//   console.log(element);
+// }
+
+// Busquedas en un array
+// let n = x.find((val) => val === 34);
+// let n = x.findIndex((val) => val === 34);
+// let n = x.some((val) => val >= 10);
+
+// console.log(n);
+
+// let val;
+// let arr = [];
+
+// for (var i = 0; i < 6; ) {
+//   val = parseInt(prompt("Ingresa un numero", 0));
+//   if (isNaN(val)) {
+//     val = parseInt(prompt("Ingresa un numero", 0));
+//   } else {
+//     arr.push(val);
+//     i++;
+//   }
+// }
+
+// document.write("<h1>Contenido del array</h1>");
+// document.write("<ul>");
+// arr.forEach((n, index) => {
+//   document.write(`
+//   <li>${index} - ${n} </li>
+//   `);
+// });
+// document.write("</ul>");
+
+// console.log(arr);
